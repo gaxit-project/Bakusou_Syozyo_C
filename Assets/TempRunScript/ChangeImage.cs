@@ -13,16 +13,12 @@ public class ChangeImage : MonoBehaviour
     // スプライトオブジェクトを変更するためのフラグ
     int Change;
 
-    public static int Length;
-
     // ゲーム開始時に実行する処理
     void Start()
     {
         // スプライトオブジェクトを変更するためのフラグを 
         // Image コンポーネントを取得して変数 m_Image に格納
         m_Image = GetComponent<Image>();
-
-        Length = m_Sprite.Length;
     }
 
     // ゲーム実行中に毎フレーム実行する処理
@@ -31,25 +27,58 @@ public class ChangeImage : MonoBehaviour
         if (QTE1.QTEflag)
         {
             Change = QTE1.QTEcount;
-            QTEImage();
+
+            if (Change == 0)
+            {
+                // スプライトオブジェクトの変更
+                m_Image.sprite = m_Sprite[0];
+            }
+            if (Change == 1)
+            {
+                // スプライトオブジェクトの変更
+                m_Image.sprite = m_Sprite[1];
+            }
+            if (Change == 2)
+            {
+                // スプライトオブジェクトの変更
+                m_Image.sprite = m_Sprite[2];
+            }
+            if (Change == 3)
+            {
+                // スプライトオブジェクトの変更
+                m_Image.sprite = m_Sprite[3];
+            }
         }
 
 
         if (QTE2.QTEflag)
         {
             Change = QTE2.RandomQTE[QTE2.QTEcount];
-            QTEImage();
+
+            if (Change == 0)
+            {
+                // スプライトオブジェクトの変更 {X}
+                m_Image.sprite = m_Sprite[0];
+            }
+            if (Change == 1)
+            {
+                // スプライトオブジェクトの変更 {Y}
+                m_Image.sprite = m_Sprite[1];
+            }
+            if (Change == 2)
+            {
+                // スプライトオブジェクトの変更 {B}
+                m_Image.sprite = m_Sprite[2];
+            }
+            if (Change == 3)
+            {
+                // スプライトオブジェクトの変更 {A}
+                m_Image.sprite = m_Sprite[3];
+            }
         }
 
 
-        if (QTE3.QTEflag)
-        {
-            Change = QTE3.RandomQTE[QTE3.QTEcount];
-            QTEImage();
-        }
-
-
-        if (Goal.goal)
+        if(Goal.goal)
         {
             if (!Goal.Tikoku)
             {
@@ -59,31 +88,6 @@ public class ChangeImage : MonoBehaviour
             {
                 m_Image.sprite = m_Sprite[1];
             }
-        }
-    }
-
-
-    void QTEImage()
-    {
-        if (Change == 0)
-        {
-            // スプライトオブジェクトの変更 {X}
-            m_Image.sprite = m_Sprite[0];
-        }
-        if (Change == 1)
-        {
-            // スプライトオブジェクトの変更 {Y}
-            m_Image.sprite = m_Sprite[1];
-        }
-        if (Change == 2)
-        {
-            // スプライトオブジェクトの変更 {B}
-            m_Image.sprite = m_Sprite[2];
-        }
-        if (Change == 3)
-        {
-            // スプライトオブジェクトの変更 {A}
-            m_Image.sprite = m_Sprite[3];
         }
     }
 }

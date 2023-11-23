@@ -35,5 +35,7 @@ public class MoveP : MonoBehaviour
                 flag = true;
             }
         }
+        
+        //transform.localPosition += _velocity * Time.deltaTime;
     }
 }
