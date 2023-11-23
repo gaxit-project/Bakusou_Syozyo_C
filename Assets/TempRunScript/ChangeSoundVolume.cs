@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 // "AudioSource"コンポーネントがアタッチされていない場合アタッチ
 [RequireComponent(typeof(AudioSource))]
-public class ChangeSoundVolume : MonoBehaviour
+public class ChangeBGMVolume : MonoBehaviour
 {
 
     public Slider slider;

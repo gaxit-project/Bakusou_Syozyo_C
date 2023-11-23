@@ -7,7 +7,7 @@ public class menu2 : MonoBehaviour
 	Button b2;
 	void Start()
 	{
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         b1 = GameObject.Find("/Canvas/Panel/Button1").GetComponent<Button>();
 		b2 = GameObject.Find("/Canvas/Panel/Button1").GetComponent<Button>();
 		// Å‰‚É‘I‘ğó‘Ô‚É‚µ‚½‚¢ƒ{ƒ^ƒ“‚Ìİ’è

@@ -59,7 +59,7 @@ public class QTE1 : MonoBehaviour
                 {
                     QTE_UI.SetActive(!QTE_UI.activeSelf);
                     Debug.Log("QTE");
-                    QTEcount = 4;
+                    QTEcount = ChangeImage.Length;
                     First = false;
                 }
             }
@@ -95,8 +95,8 @@ public class QTE1 : MonoBehaviour
                 SceneManager.LoadScene("QTE seikou2", LoadSceneMode.Single);
                 QTE_UI.SetActive(!QTE_UI.activeSelf);
                 Debug.Log("QTE2");
+                QTEcount = ChangeImage.Length;
                 QTEflag = false;
-                QTEcount = 4;
             }
         }
     }
@@ -105,11 +105,16 @@ public class QTE1 : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        QTE_sippai(other, QTE_UI, First);
+    }
+
+
+    public static void QTE_sippai(Collider other, GameObject QTE_UI,bool First)
+    {
         if (other.gameObject.name == "QTEarea1" && First)
         {
             QTEflag = false;
             Goal.Tikoku = true;
-            Debug.Log(Goal.Tikoku+"1");
             QTE_UI.SetActive(!QTE_UI.activeSelf);
             SceneManager.LoadScene("QTE sippai1", LoadSceneMode.Single);
         }
@@ -118,7 +123,6 @@ public class QTE1 : MonoBehaviour
         {
             QTEflag = false;
             Goal.Tikoku = true;
-            Debug.Log(Goal.Tikoku+"2");
             QTE_UI.SetActive(!QTE_UI.activeSelf);
             SceneManager.LoadScene("QTE sippai2", LoadSceneMode.Single);
         }
