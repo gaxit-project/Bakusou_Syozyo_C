@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A4AADED1-9143-559E-0223-847CD44BB5D2}</ProjectGuid>
+    <ProjectGuid>{33D694B8-7EC2-2E4B-220F-A65C189439B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniGLTF</AssemblyName>
@@ -888,15 +888,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{8A9451B1-29D0-9549-13B4-59CFB84903B5}</Project>
+      <Project>{626C5FC1-7A2A-82E2-68D9-4E3CB7B1D26F}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.UniUnlit.Runtime.csproj">
-      <Project>{99AEB5E1-9B34-F1BD-5344-AA01E1A03761}</Project>
+      <Project>{ED8ECD90-6E55-CE68-78EE-427E01DA2862}</Project>
       <Name>VRMShaders.GLTF.UniUnlit.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.Utils.csproj">
-      <Project>{F80181EA-919E-EF09-6B6E-E0621438412A}</Project>
+      <Project>{6BB3E59F-F32A-5F5B-3EC7-E5E155BCF264}</Project>
       <Name>UniGLTF.Utils</Name>
     </ProjectReference>
   </ItemGroup>

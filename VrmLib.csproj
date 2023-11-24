@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5E484AA8-112C-93F4-47E6-F7AACA369ECD}</ProjectGuid>
+    <ProjectGuid>{7A883861-3F6C-D20A-B077-0BC33AB3D686}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VrmLib</AssemblyName>
@@ -737,11 +737,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UniGLTF.csproj">
-      <Project>{A4AADED1-9143-559E-0223-847CD44BB5D2}</Project>
+      <Project>{33D694B8-7EC2-2E4B-220F-A65C189439B5}</Project>
       <Name>UniGLTF</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.Utils.csproj">
-      <Project>{F80181EA-919E-EF09-6B6E-E0621438412A}</Project>
+      <Project>{6BB3E59F-F32A-5F5B-3EC7-E5E155BCF264}</Project>
       <Name>UniGLTF.Utils</Name>
     </ProjectReference>
   </ItemGroup>

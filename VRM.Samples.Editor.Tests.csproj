@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{24AE8A6C-75E3-77BA-DBD7-07CF884112D0}</ProjectGuid>
+    <ProjectGuid>{B69A96E5-CDEA-0A94-95F7-545B526412E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VRM.Samples.Editor.Tests</AssemblyName>
@@ -716,27 +716,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VRM.csproj">
-      <Project>{A5296F34-1905-A669-1563-5AB94C802A59}</Project>
+      <Project>{1BE4FC0F-CAA9-6A68-1DDB-51493F9D653A}</Project>
       <Name>VRM</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.csproj">
-      <Project>{A4AADED1-9143-559E-0223-847CD44BB5D2}</Project>
+      <Project>{33D694B8-7EC2-2E4B-220F-A65C189439B5}</Project>
       <Name>UniGLTF</Name>
     </ProjectReference>
     <ProjectReference Include="UniVRM.Editor.csproj">
-      <Project>{B78FA3E2-D24C-8429-3D9E-0F50BB6FC889}</Project>
+      <Project>{E2367B26-D6AB-BCCE-4601-4A89774B146F}</Project>
       <Name>UniVRM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VRM.Tests.csproj">
-      <Project>{59BEBED1-92EF-B6BC-E6C8-D8EE83F09438}</Project>
+      <Project>{DEC85D67-5C1E-267D-DF58-8062545A2C3D}</Project>
       <Name>VRM.Tests</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{8A9451B1-29D0-9549-13B4-59CFB84903B5}</Project>
+      <Project>{626C5FC1-7A2A-82E2-68D9-4E3CB7B1D26F}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Editor.csproj">
-      <Project>{1E20B258-9EDA-F947-96F6-9F41936427AD}</Project>
+      <Project>{50544978-720E-B63B-A430-348A008C3782}</Project>
       <Name>VRMShaders.GLTF.IO.Editor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B78FA3E2-D24C-8429-3D9E-0F50BB6FC889}</ProjectGuid>
+    <ProjectGuid>{E2367B26-D6AB-BCCE-4601-4A89774B146F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniVRM.Editor</AssemblyName>
@@ -788,35 +788,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VRM.csproj">
-      <Project>{A5296F34-1905-A669-1563-5AB94C802A59}</Project>
+      <Project>{1BE4FC0F-CAA9-6A68-1DDB-51493F9D653A}</Project>
       <Name>VRM</Name>
     </ProjectReference>
     <ProjectReference Include="UniHumanoid.csproj">
-      <Project>{0A1A3511-A4BC-0B8C-9F21-F86AD28EDD35}</Project>
+      <Project>{52BF000A-74C9-5041-199B-43CD1DDA84A1}</Project>
       <Name>UniHumanoid</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{8A9451B1-29D0-9549-13B4-59CFB84903B5}</Project>
+      <Project>{626C5FC1-7A2A-82E2-68D9-4E3CB7B1D26F}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Editor.csproj">
-      <Project>{1E20B258-9EDA-F947-96F6-9F41936427AD}</Project>
+      <Project>{50544978-720E-B63B-A430-348A008C3782}</Project>
       <Name>VRMShaders.GLTF.IO.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.csproj">
-      <Project>{A4AADED1-9143-559E-0223-847CD44BB5D2}</Project>
+      <Project>{33D694B8-7EC2-2E4B-220F-A65C189439B5}</Project>
       <Name>UniGLTF</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.Editor.csproj">
-      <Project>{9AFA0B73-B59D-1E34-8481-663648C1114D}</Project>
+      <Project>{F446B1D6-3573-40A1-292E-15AA75E37A01}</Project>
       <Name>UniGLTF.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.VRM.IO.Runtime.csproj">
-      <Project>{360713CE-EF80-E318-2754-B00CE1F8338D}</Project>
+      <Project>{E702AF05-9FAE-D318-2D30-BBB658FBB163}</Project>
       <Name>VRMShaders.VRM.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.Utils.csproj">
-      <Project>{F80181EA-919E-EF09-6B6E-E0621438412A}</Project>
+      <Project>{6BB3E59F-F32A-5F5B-3EC7-E5E155BCF264}</Project>
       <Name>UniGLTF.Utils</Name>
     </ProjectReference>
   </ItemGroup>
